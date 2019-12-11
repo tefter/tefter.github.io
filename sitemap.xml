@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://tefter.github.io/features/intelligent_search/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tefter.github.io/features/</loc>
+    <lastmod>2018-12-28T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tefter.github.io/getting-started/</loc>
+    <lastmod>2018-12-28T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tefter.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tefter.github.io/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tefter.github.io/</loc>
+  </url>
+  
+</urlset>
