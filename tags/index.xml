@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Tefter guides and documentation</title>
+    <link>https://guides.tefter.io/tags/</link>
+    <description>Recent content in Tags on Tefter guides and documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>copyright © [tefter](https://tefter.io) 2019&#43;</copyright>
+    
+	<atom:link href="https://guides.tefter.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
