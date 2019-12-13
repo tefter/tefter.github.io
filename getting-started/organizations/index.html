@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
   <meta charset="utf-8">
-  <title>Categories</title>
+  <title>Setting up an Organization</title>
 
   <meta name="generator" content="Hugo 0.61.0" />
 
@@ -228,7 +228,7 @@
 
 
 <li data-nav-id="https://guides.tefter.io/getting-started/" title="Getting Started" class="sidelist
-  
+  parent
     
   ">
   <a href="/getting-started/">
@@ -251,8 +251,8 @@
 
 
 <li data-nav-id="https://guides.tefter.io/getting-started/organizations/" title="Setting up an Organization" class="sidelist
-  
-    
+  parent
+   active 
   ">
   <a href="/getting-started/organizations/">
     Setting up an Organization
@@ -274,30 +274,64 @@
       </div>
       <div class="col-lg-9">
         <div class="p-5 bg-white">
-          <h2 class="mb-5">Categories</h2>
+          <h2 class="mb-5">Setting up an Organization</h2>
           
-          <div class="bg-gray p-4">
-            <ul class="page-list">
-              
+          <div class="content">
+
+  <img class="inpage-hero" src="/images/organizations_setup.svg"/>
 
 
+<h3 id="prerequisites">Prerequisites</h3>
+<p>To create an organization you have to connect Tefter to your Slack workspace.
+Then the members of your workspace can use Tefter for bookmarking and aliases.
+You can about the organization features <a href="/features/team_collaboration/">here</a>.</p>
+<h3 id="installing-the-slack-application">Installing the Slack Application</h3>
+<p>Click the button below</p>
 
 
-<li data-nav-id="https://guides.tefter.io/categories/" title="Categories" class="sidelist
-  parent
-  
-  ">
-  <a href="/categories/">
-    Categories
-  </a>
-  
-  
+<a class="btn btn-primary" href="https://tefter.io/integrations/slack_direct_install_callback">Install</a>
 
 
-            </ul>
-          </div>
+<p>or visit the Slack directory <a href="https://slack.com/apps/AFBC4A147-tefter">app page</a>.</p>
+<h3 id="permissions">Permissions</h3>
+<p>Keep in mind that we don't ask for a permission to read all the messages of the workspace.
+Tefter only operates on commands and mentions.</p>
+<p>When you click the button to install the app, you should see a screen
+like:</p>
+
+
+  <img class="inpage-hero" src="/images/slack_permissions.webp"/>
+
+
+<h3 id="your-organizations">Your Organizations</h3>
+<p>After installing the app, your workspace will be visible in your <a href="https://tefter.io/organizations">organizations</a>.</p>
+
+
+  <img class="inpage-hero" src="/images/orgs_list.webp"/>
+
+
+<h3 id="add-your-first-bookmark">Add your first bookmark</h3>
+<p>From your Slack workspace, call:</p>
+<pre><code>/t https://tefter.io
+</code></pre><p>To add your first bookmark. Any member of the workspace may then call:</p>
+<pre><code>/t search tefter`
+</code></pre><p>to retrieve that bookmark.</p>
+<h3 id="inviting-members">Inviting Members</h3>
+<p>While every member of the workspace can read content added to the organization, not everyone can add or edit.
+Any member who wishes to do that, must call:</p>
+<pre><code>/t login
+</code></pre><h3 id="managing-the-organization">Managing the Organization</h3>
+<p>The person who installs the app becomes the admin of the Tefter organization.
+From within your org, you can make any other member the admin as show in
+the image below:</p>
+
+
+  <img src="/images/transfer_admin.png"/>
+
+
+</div>
           
-          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 01 Jan 0001</p>
+          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 12 Dec 2019</p>
           <nav class="pagination mt-3">
             
             
@@ -325,8 +359,6 @@
             
             
             
-            
-            
 
             
             
@@ -342,11 +374,15 @@
             
             
             
+            
+
+            
+            
+            
 
             
             
             
-
             
             
             
@@ -445,7 +481,7 @@
             <a class="nav nav-prev" href="https://guides.tefter.io/features/intelligent_search/"><i class="ti-arrow-left mr-2"></i>Intelligent Search</a>
             
             
-            <a class="nav nav-next" href="https://guides.tefter.io/getting-started/">Getting Started<i class="ti-arrow-right ml-2"></i></a>
+            <a class="nav nav-next" href="https://guides.tefter.io/features/">Features<i class="ti-arrow-right ml-2"></i></a>
             
           </nav>
         </div>
