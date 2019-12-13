@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
   <meta charset="utf-8">
-  <title>Intelligent Search</title>
+  <title>Team Collaboration</title>
 
   <meta name="generator" content="Hugo 0.61.0" />
 
@@ -166,8 +166,8 @@
 
 
 <li data-nav-id="https://guides.tefter.io/features/team_collaboration/" title="Team Collaboration" class="sidelist
-  
-    
+  parent
+   active 
   ">
   <a href="/features/team_collaboration/">
     Team Collaboration
@@ -185,8 +185,8 @@
 
 
 <li data-nav-id="https://guides.tefter.io/features/intelligent_search/" title="Intelligent Search" class="sidelist
-  parent
-   active 
+  
+    
   ">
   <a href="/features/intelligent_search/">
     Intelligent Search
@@ -225,18 +225,103 @@
       </div>
       <div class="col-lg-9">
         <div class="p-5 bg-white">
-          <h2 class="mb-5">Intelligent Search</h2>
+          <h2 class="mb-5">Team Collaboration</h2>
           
-          <div class="content"><h3 id="search">Search</h3>
-<p>We index the contents of the pages you bookmark, but also calculate interesting metadata like word count, reading time, author and topics for articles.</p>
-<p><img src="https://camo.githubusercontent.com/e41a0a12d5c01f74c83925cabb4db4115003c068/68747470733a2f2f692e696d6775722e636f6d2f324d6c786732332e706e67" alt="intelligent-search"></p>
-<h3 id="autocomplete">Autocomplete</h3>
-<p>You can search as you type and see results of lists, bookmarks, tags and domains.</p>
-<p><img src="https://camo.githubusercontent.com/e294eb6f5c0065fe19c473785c56ede938948f9c/68747470733a2f2f692e696d6775722e636f6d2f73474f444752502e676966" alt="autocomplete"></p>
-<p>The autocomplete results include bookmarks, lists, tags, domains and aliases.</p>
+          <div class="content"><h4 id="login">Login</h4>
+<p>Any Slack workspace member who wishes to create or modify content of
+Tefter for the organization has to log in first. By logging in a Slack
+member account is connected to a Tefter one.</p>
+<p>Use <code>/tefter login</code> to connect your accounts.</p>
+<p><strong>Adding bookmarks</strong></p>
+<p>You can use the <code>/tefter &lt;url&gt;</code> command or a Slack
+message action to add a bookmark.</p>
+
+
+<details>
+  <summary>
+  Demo of the command
+  </summary>
+
+  <img src="https://i.imgur.com/YBYWJyd.gif" alt="slack integration add bookmark">
+</details>
+
+
+
+
+<details>
+  <summary>
+  Demo of the message action
+  </summary>
+
+  <img src="https://i.imgur.com/VQQ2OxX.gif" alt="slack integration add bookmark">
+</details>
+
+<br/>
+
+
+<h4 id="searching">Searching</h4>
+<p>You can use the <code>/tefter search &lt;query&gt;</code> command or mention the
+<code>@tefter</code> bot to search.</p>
+<p>An example using the mention might be:</p>
+<p><code>Yo @tefter search functional programming</code></p>
+<p>💡 There's a short version of the search command. It's just <code>s</code>.<br>
+Example: <code>/tefter s agile</code></p>
+
+
+<details>
+  <summary>
+  Demo of the search command
+  </summary>
+
+  <img src="https://i.imgur.com/4wqaTL4.gif" alt="slack integration search command">
+</details>
+
+<br/>
+
+
+<h4 id="sharing-search-results-with-others">Sharing search results with others</h4>
+<p>When searching for any results that you wish to share to the members of
+the channel, you can select &ldquo;share&rdquo;.</p>
+
+
+<details>
+  <summary>
+  Demo of the sharing action
+  </summary>
+
+  <img src="https://i.imgur.com/raQBXG9.png" alt="slack integration share action">
+
+  <img src="https://i.imgur.com/rVmMTVj.png" alt="slack integration share action response">
+</details>
+
+<br/>
+
+
+<p>Keep in mind that @tefter has to be invited to that channel first.</p>
+<h4 id="creating-an-alias">Creating an alias</h4>
+<p><code>/tefter alias &lt;alias&gt; &lt;url_pattern&gt;</code></p>
+<p>Example:</p>
+<p><code>/tefter alias api-docs https://tefter.io/docs/api</code></p>
+<p>or with a dynamic alias</p>
+<p><code>/tefter alias deb-tracker https://tracker.debian.org/pkg/{{*}}</code></p>
+<p>Read more about aliases in the section below.</p>
+<h4 id="resolving-an-alias">Resolving an alias</h4>
+<p><code>/tefter &lt;alias_pattern&gt;</code></p>
+<p>Example:</p>
+<p><code>/tefter deb-tracker/nginx</code></p>
+<p>or by mentioning <code>@tefter</code></p>
+<p><code>@tefter deb-tracker/nginx</code></p>
+<h4 id="listing-all-aliases">Listing all aliases</h4>
+<p><code>/tefter aliases</code></p>
+<p>or by mentioning <code>@tefter</code></p>
+<p><code>@tefter aliases</code></p>
+<h4 id="listing-the-most-popular-bookmarks">Listing the most popular bookmarks</h4>
+<p><code>/tefter news</code></p>
+<p>Our ranking algorithm factors in recency, likes and views.</p>
+<p><img src="https://i.imgur.com/XmrFUhs.png" alt="tefter-news-command"></p>
 </div>
           
-          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 29 Dec 2018</p>
+          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 12 Dec 2019</p>
           <nav class="pagination mt-3">
             
             
@@ -299,13 +384,13 @@
             
             
             
-            
-            
 
             
             
             
 
+            
+            
             
             
             
@@ -355,7 +440,7 @@
             <a class="nav nav-prev" href="https://guides.tefter.io/features/intelligent_search/"><i class="ti-arrow-left mr-2"></i>Intelligent Search</a>
             
             
-            <a class="nav nav-next" href="https://guides.tefter.io/features/team_collaboration/">Team Collaboration<i class="ti-arrow-right ml-2"></i></a>
+            <a class="nav nav-next" href="https://guides.tefter.io/features/intelligent_search/">Intelligent Search<i class="ti-arrow-right ml-2"></i></a>
             
           </nav>
         </div>
