@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Intelligent Search on Tefter guides and documentation</title>
-    <link>https://guides.tefter.io/features/intelligent_search/</link>
-    <description>Recent content in Intelligent Search on Tefter guides and documentation</description>
+    <title>Aliases on Tefter guides and documentation</title>
+    <link>https://guides.tefter.io/features/aliases/</link>
+    <description>Recent content in Aliases on Tefter guides and documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>copyright © [tefter](https://tefter.io) 2019&#43;</copyright>
     <lastBuildDate>Thu, 12 Dec 2019 11:02:05 +0600</lastBuildDate>
     
-	<atom:link href="https://guides.tefter.io/features/intelligent_search/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://guides.tefter.io/features/aliases/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
   <meta charset="utf-8">
-  <title>Intelligent Search</title>
+  <title>Aliases</title>
 
   <meta name="generator" content="Hugo 0.61.0" />
 
@@ -185,8 +185,8 @@
 
 
 <li data-nav-id="https://guides.tefter.io/features/aliases/" title="Aliases" class="sidelist
-  
-    
+  parent
+   active 
   ">
   <a href="/features/aliases/">
     Aliases
@@ -204,8 +204,8 @@
 
 
 <li data-nav-id="https://guides.tefter.io/features/intelligent_search/" title="Intelligent Search" class="sidelist
-  parent
-   active 
+  
+    
   ">
   <a href="/features/intelligent_search/">
     Intelligent Search
@@ -244,15 +244,46 @@
       </div>
       <div class="col-lg-9">
         <div class="p-5 bg-white">
-          <h2 class="mb-5">Intelligent Search</h2>
+          <h2 class="mb-5">Aliases</h2>
           
-          <div class="content"><h3 id="search">Search</h3>
-<p>We index the contents of the pages you bookmark, but also calculate interesting metadata like word count, reading time, author and topics for articles.</p>
-<p><img src="https://camo.githubusercontent.com/e41a0a12d5c01f74c83925cabb4db4115003c068/68747470733a2f2f692e696d6775722e636f6d2f324d6c786732332e706e67" alt="intelligent-search"></p>
-<h3 id="autocomplete">Autocomplete</h3>
-<p>You can search as you type and see results of lists, bookmarks, tags and domains.</p>
-<p><img src="https://camo.githubusercontent.com/e294eb6f5c0065fe19c473785c56ede938948f9c/68747470733a2f2f692e696d6775722e636f6d2f73474f444752502e676966" alt="autocomplete"></p>
-<p>The autocomplete results include bookmarks, lists, tags, domains and aliases.</p>
+          <div class="content">
+
+  <img class="inpage-hero" src="/images/alias.svg"/>
+
+
+<p>You can create shortcuts to links you commonly use. We call such shortcuts <code>aliases</code>.</p>
+<p>Registering an <code>api-docs</code> to <code>https://verylongnameapplication.com/api-docs</code> allows you to
+type <code>go/api-docs</code> in your browser's address bar to navigate there.
+Think of it as a <a href="https://www.golinks.io/">https://www.golinks.io/</a> alternative.</p>
+<p>Aliases can either be private for a user or they can be global for an organization.</p>
+<p><img src="https://i.imgur.com/aZvW1QV.png" alt="list-aliases"></p>
+<p>You can use the {web, mobile, desktop} UI to create a new alias, or you
+can use the Slack integration.</p>
+<p>For example, let's say you assign an alias to <code>https://security-tracker.debian.org/tracker/source-package/{{*}}</code>
+to <code>deb-sec</code>.</p>
+<p><img src="https://i.imgur.com/LlN0JNB.png" alt="new-alias"></p>
+<p>Then when you navigate to <code>https://tefter.io/go/deb-sec/nginx</code> you'll be redirected to
+<code>https://security-tracker.debian.org/tracker/source-package/nginx</code>.</p>
+<p>Aliases can be static, or dynamic. Dynamic aliases contain variable segments. Use <code>{{*}}</code> to create dynamic segments.</p>
+<p>So, an alias <code>ex</code> pointing to <code>https://example.com/{{*}}/a/{{*}}/b/{{*}}</code> when invoked with
+<code>go/ex/1/2/3</code> will redirect to <code>https://example.com/1/a/2/b/3</code>.</p>
+<p><strong>Browser Extension</strong></p>
+<p>You can use the browser extension to quickly navigate using aliases.
+This is currently only available in Chrome.</p>
+<p><img src="https://i.imgur.com/oxoYBtu.gif" alt="aliases-extension"></p>
+<h3 id="search-bar">Search bar</h3>
+<p>You may also navigate using aliases from the search bar.</p>
+<p><img src="https://i.imgur.com/oGRZVSI.gif" alt="search-bar-demo"></p>
+<h3 id="command-line-usage">Command-Line Usage</h3>
+<p>We're working on command-line application you can use to interact with Tefter.
+Until it's released you can use a simple shell function like the following to navigate using aliases.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Add this to your .zshrc</span>
+te<span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+  open <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">https://tefter.io/go/</span>$1<span style="color:#e6db74">&#34;</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p><img src="https://i.imgur.com/EJw1Hx6.gif" alt="terminal-app"></p>
+<h2 id="coming-soon">Coming Soon</h2>
+<p>Functions in dynamic aliases.</p>
 </div>
           
           <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 12 Dec 2019</p>
@@ -336,11 +367,14 @@
             
             
             
+            
+
+            
+            
+            
 
             
             
-            
-
             
             
             
@@ -390,7 +424,7 @@
             <a class="nav nav-prev" href="https://guides.tefter.io/features/intelligent_search/"><i class="ti-arrow-left mr-2"></i>Intelligent Search</a>
             
             
-            <a class="nav nav-next" href="https://guides.tefter.io/features/team_collaboration/">Team Collaboration<i class="ti-arrow-right ml-2"></i></a>
+            <a class="nav nav-next" href="https://guides.tefter.io/features/intelligent_search/">Intelligent Search<i class="ti-arrow-right ml-2"></i></a>
             
           </nav>
         </div>
