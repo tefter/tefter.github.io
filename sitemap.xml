@@ -33,6 +33,11 @@
   </url>
   
   <url>
+    <loc>https://guides.tefter.io/features/data_export/</loc>
+    <lastmod>2019-12-12T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://guides.tefter.io/features/feed/</loc>
     <lastmod>2019-12-12T11:02:05+06:00</lastmod>
   </url>
@@ -49,6 +54,16 @@
   
   <url>
     <loc>https://guides.tefter.io/getting-started/personal/</loc>
+    <lastmod>2019-12-12T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://guides.tefter.io/features/privacy/</loc>
+    <lastmod>2019-12-12T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://guides.tefter.io/features/public_api/</loc>
     <lastmod>2019-12-12T11:02:05+06:00</lastmod>
   </url>
   
