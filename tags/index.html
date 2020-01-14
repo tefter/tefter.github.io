@@ -21,65 +21,42 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
 
   <style>
-  :root{
-    --primary-color:#5fbec9;
-    --secondary-color:#f9f9f9;
-    --text-color:#636363;
-    --text-color-dark:#242738;
-    --white-color:#ffffff;
-  }
+   :root{
+     --primary-color:#5fbec9;
+     --secondary-color:#f9f9f9;
+     --text-color:#636363;
+     --text-color-dark:#242738;
+     --white-color:#ffffff;
+   }
   </style>
 
-<!-- Main Stylesheet -->
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://guides.tefter.io/css/style.min.css" media="screen">
 
-<link rel="stylesheet" href="https://guides.tefter.io/css/style.min.css" media="screen">
+  <!-- jquiry -->
+  <script src="https://guides.tefter.io/plugins/jquery/jquery-1.12.4.js"></script>
 
-<!-- jquiry -->
-<script src="https://guides.tefter.io/plugins/jquery/jquery-1.12.4.js"></script>
+  <!-- jquary ui -->
+  <script src="https://guides.tefter.io/plugins/jquery/jquery-ui.js"></script>
 
-<!-- jquary ui -->
-<script src="https://guides.tefter.io/plugins/jquery/jquery-ui.js"></script>
-
-<!--Favicon-->
-<link rel="icon" sizes="32x32" href="https://guides.tefter.io/images/favicon.png" type="image/x-icon">
+  <!--Favicon-->
+  <link rel="icon" sizes="32x32" href="https://guides.tefter.io/images/favicon.png" type="image/x-icon">
 
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154588391-1"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
 
-    gtag('config', 'UA-154588391-1');
+   gtag('config', 'UA-154588391-1');
   </script>
 
   
-  <script>
-  "use strict";
-  !function() {
-    var t = window.driftt = window.drift = window.driftt || [];
-    if (!t.init) {
-      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
-      t.factory = function(e) {
-        return function() {
-          var n = Array.prototype.slice.call(arguments);
-          return n.unshift(e), t.push(n), t;
-        };
-      }, t.methods.forEach(function(e) {
-        t[e] = t.factory(e);
-      }), t.load = function(t) {
-        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-        var i = document.getElementsByTagName("script")[0];
-        i.parentNode.insertBefore(o, i);
-      };
-    }
-  }();
-  drift.SNIPPET_VERSION = '0.3.1';
-  drift.load('vxdrwzdptz84');
-  </script>
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6929598.js"></script>
   
+
 </head>
 
 <body>
