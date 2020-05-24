@@ -645,6 +645,19 @@ The shortcut is configurable on Chrome, see: <a href="chrome://extensions/shotcu
 <p>Alternatively you can search straight from the address bar, by typing <code>t</code> followed by the <code>tab</code> key (Chrome)
 or <code>t</code> followed by the <code>space</code> key (Firefox).</p>
 <p><img src="/images/omnibar.gif" alt="chrome-omnibar"></p>
+<h4 id="permissions">Permissions</h4>
+<p>The extension asks for the following permissions:</p>
+<p><strong>Tabs</strong></p>
+<p>It requires access to your open tabs, so that you can navigate to any of them and make them searchable.</p>
+<p><strong>ContextMenus</strong></p>
+<p>You can right-click on any link to add a bookmark.</p>
+<p><strong>History</strong></p>
+<p>It analyzes your history, ranks it and makes it searchable. All the data
+manipulation stays on your machine. The extension never sends any of
+your data to a remote server.</p>
+<p><strong>Intercept Requests</strong></p>
+<p>To navigate to aliases (see section below). It only intercepts
+navigation to URLs starting with <code>go/</code>.</p>
 <h4 id="aliases">Aliases</h4>
 <p>Aliases are shortcuts to links you commonly use, read more about them <a href="/features/aliases/">here</a>.
 With the extension installed, you may navigate to an alias, let's say
