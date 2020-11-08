@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Team Collaboration</title>
 
-  <meta name="generator" content="Hugo 0.61.0" />
+  <meta name="generator" content="Hugo 0.74.3" />
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -151,23 +151,6 @@
   ">
   <a href="/billing-pricing/">
     Billing &amp; Pricing
-  </a>
-  
-  
-
-
-            
-              
-
-
-
-
-<li data-nav-id="https://guides.tefter.io/" title="Docs" class="sidelist
-  
-  
-  ">
-  <a href="">
-    Docs
   </a>
   
   
@@ -553,12 +536,12 @@
 
 
 
-<li data-nav-id="https://guides.tefter.io/getting-started/organizations/" title="Setting up an Organization" class="sidelist
+<li data-nav-id="https://guides.tefter.io/getting-started/organizations/" title="Setting up a Team" class="sidelist
   
     
   ">
   <a href="/getting-started/organizations/">
-    Setting up an Organization
+    Setting up a Team
   </a>
   
   
@@ -591,17 +574,17 @@ Click the button below to install it on your workspace.</p>
 <a class="btn btn-primary" href="https://tefter.io/integrations/slack_direct_install_callback">Install</a>
 
 
-<p>After installing, read <a href="/getting-started/organizations/">here</a> to set up your organization.</p>
+<p>After installing, read <a href="/getting-started/organizations/">here</a> to set up your team.</p>
 <h3 id="available-commands">Available Commands</h3>
 <p>After installing the Slack app, you may either use <code>/tefter &lt;command&gt;</code> or its shorter
 equivalent <code>/t &lt;command&gt;</code>.</p>
 <p>Begin with <code>/t help</code> to list some of the ways you can interact with it.</p>
 <h4 id="login">Login</h4>
 <p>Any Slack workspace member who wishes to create or modify content on
-Tefter for the organization, has to log in first. By logging in a Slack
+Tefter for the team, has to log in first. By logging in a Slack
 member account is connected to a Tefter one.</p>
 <p>Use <code>/t login</code> to connect your accounts.</p>
-<p>Admins and members of the organization can send invites, see how <a href="/getting-started/organizations/#inviting-members">here</a>.</p>
+<p>Admins and members of the team can send invites, see how <a href="/getting-started/organizations/#inviting-members">here</a>.</p>
 <h4 id="adding-bookmarks">Adding bookmarks</h4>
 <p>You can use the call the root tefter command or a Slack message action to add a bookmark.</p>
 <pre><code>/t &lt;url&gt;
@@ -634,7 +617,7 @@ member account is connected to a Tefter one.</p>
 <code>@tefter</code> bot to search.</p>
 <p>An example using the mention might be:</p>
 <p><code>Yo @tefter search functional programming</code></p>
-<p>💡 There's a short version of the search command. It's just <code>s</code>.<br>
+<p>💡 There&rsquo;s a short version of the search command. It&rsquo;s just <code>s</code>.<br>
 Example: <code>/t s agile</code></p>
 
 
@@ -648,7 +631,7 @@ Example: <code>/t s agile</code></p>
 
 
 
-<p>You may also browse the bookmarks of an organization you're member of
+<p>You may also browse the bookmarks of an team you&rsquo;re member of
 from the web or the apps by using a filter.</p>
 
 
@@ -672,7 +655,7 @@ the channel, you can select &ldquo;share&rdquo;.</p>
 
 
 
-<p>⚠ Keep in mind that <code>@tefter</code> has to be invited to that channel first.</p>
+<p>⚠️ Keep in mind that <code>@tefter</code> has to be invited to that channel first.</p>
 <h4 id="creating-an-alias">Creating an alias</h4>
 <pre><code>/t alias &lt;alias&gt; &lt;url_pattern&gt;
 </code></pre><p>Example:</p>
@@ -695,7 +678,7 @@ the channel, you can select &ldquo;share&rdquo;.</p>
 </code></pre><p>Our ranking algorithm factors in recency, likes and views.</p>
 <p><img src="https://i.imgur.com/XmrFUhs.png" alt="tefter-news-command"></p>
 <h2 id="lists">Lists</h2>
-<p>You can create lists and all the organization's members will be able to
+<p>You can create lists and all the team&rsquo;s members will be able to
 add / remove bookmarks to them.</p>
 
 
@@ -704,7 +687,7 @@ add / remove bookmarks to them.</p>
 
 <p>Members may also subscribe to lists and get notified every time a bookmark is added.</p>
 <h2 id="web-interface">Web Interface</h2>
-<p>You can manage and add content to your organizations from the web and mobile interfaces.</p>
+<p>You can manage and add content to your teams from the web and mobile interfaces.</p>
 <h3 id="switching-workspaces">Switching Workspaces</h3>
 <p>When you are a member of at least one org, you can switch between your
 personal context and that of a workspace by clicking your avatar in
@@ -722,22 +705,22 @@ the top right corner.</p>
   <img src="/images/current_org_context.png"/>
 
 
-<p>You can click it for options to manage the organization.</p>
+<p>You can click it for options to manage the team.</p>
 <h3 id="adding-bookmarks-1">Adding Bookmarks</h3>
-<p>You may assign an existing or a new bookmark to an organization you're
+<p>You may assign an existing or a new bookmark to an team you&rsquo;re
 member of, by selecting from the dropdown as in the image below.</p>
 
 
   <img src="/images/add_bookmark_org.png"/>
 
 
-<h2 id="public-organizations">Public Organizations</h2>
-<p>Organizations are private by default, which means that nobody except members of the org, can
+<h2 id="public-teams">Public Teams</h2>
+<p>Teams are private by default, which means that nobody except members of the team, can
 see any of its content.</p>
-<p>However if you want to, you can make you organization public. By making
-the organization public, you can expose lists to the public and Tefter
+<p>However if you want to, you can make you team public. By making
+the team public, you can expose lists to the public and Tefter
 users may even subscribe to such lists.</p>
-<p>To make your organization public, first go to your org and select
+<p>To make your team public, first go to your org and select
 &ldquo;Privacy Settings&rdquo;.</p>
 
 
@@ -750,7 +733,7 @@ users may even subscribe to such lists.</p>
   <img src="/images/public_orgs_form.png"/>
 
 
-<p>That's it!</p>
+<p>That&rsquo;s it!</p>
 </div>
           
           <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 12 Dec 2019</p>
@@ -1124,26 +1107,9 @@ users may even subscribe to such lists.</p>
             
             
             
-            
-            
-            
-            
-            
 
             
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-
-            
-            <a class="nav nav-prev" href="https://guides.tefter.io/billing-pricing/"><i class="ti-arrow-left mr-2"></i>Billing &amp; Pricing</a>
+            <a class="nav nav-prev" href="https://guides.tefter.io/features/"><i class="ti-arrow-left mr-2"></i>Features</a>
             
             
             <a class="nav nav-next" href="https://guides.tefter.io/features/aliases/">Aliases<i class="ti-arrow-right ml-2"></i></a>

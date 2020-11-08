@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Aliases</title>
 
-  <meta name="generator" content="Hugo 0.61.0" />
+  <meta name="generator" content="Hugo 0.74.3" />
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -151,23 +151,6 @@
   ">
   <a href="/billing-pricing/">
     Billing &amp; Pricing
-  </a>
-  
-  
-
-
-            
-              
-
-
-
-
-<li data-nav-id="https://guides.tefter.io/" title="Docs" class="sidelist
-  
-  
-  ">
-  <a href="">
-    Docs
   </a>
   
   
@@ -553,12 +536,12 @@
 
 
 
-<li data-nav-id="https://guides.tefter.io/getting-started/organizations/" title="Setting up an Organization" class="sidelist
+<li data-nav-id="https://guides.tefter.io/getting-started/organizations/" title="Setting up a Team" class="sidelist
   
     
   ">
   <a href="/getting-started/organizations/">
-    Setting up an Organization
+    Setting up a Team
   </a>
   
   
@@ -586,9 +569,9 @@
 
 <p>You can create shortcuts to links you commonly use. We call such shortcuts <code>aliases</code>.</p>
 <p>Registering an <code>api-docs</code> to <code>https://verylongnameapplication.com/api-docs</code> allows you to
-type <code>go/api-docs</code> in your browser's address bar to navigate there.
+type <code>go/api-docs</code> in your browser&rsquo;s address bar to navigate there.
 Think of it as a <a href="https://www.golinks.io/">https://www.golinks.io/</a> alternative.</p>
-<p>Aliases can either be private for a user or they can be global for an organization.</p>
+<p>Aliases can either be private for a user or they can be global for a team.</p>
 <p><img src="https://i.imgur.com/aZvW1QV.png" alt="list-aliases"></p>
 <h4 id="alias-examples">Alias Examples</h4>
 <p>Some ideas for links you might be interested to create aliases for:</p>
@@ -604,10 +587,10 @@ Think of it as a <a href="https://www.golinks.io/">https://www.golinks.io/</a> a
 <h3 id="creating-an-alias">Creating an Alias</h3>
 <p>You can use the {web, mobile, desktop} UI to create a new alias, or you
 can use the Slack integration.</p>
-<p>For example, let's say you assign an alias to <code>https://security-tracker.debian.org/tracker/source-package/{{*}}</code>
+<p>For example, let&rsquo;s say you assign an alias to <code>https://security-tracker.debian.org/tracker/source-package/{{*}}</code>
 to <code>deb-sec</code>.</p>
 <p><img src="https://i.imgur.com/LlN0JNB.png" alt="new-alias"></p>
-<p>Then when you navigate to <code>https://tefter.io/go/deb-sec/nginx</code> you'll be redirected to
+<p>Then when you navigate to <code>https://tefter.io/go/deb-sec/nginx</code> you&rsquo;ll be redirected to
 <code>https://security-tracker.debian.org/tracker/source-package/nginx</code>.</p>
 <p>Aliases can be static, or dynamic. Dynamic aliases contain variable segments. Use <code>{{*}}</code> to create dynamic segments.</p>
 <p>So, an alias <code>ex</code> pointing to <code>https://example.com/{{*}}/a/{{*}}/b/{{*}}</code> when invoked with
@@ -621,11 +604,11 @@ This is currently only available in Chrome.</p>
 <p>You may also navigate using aliases from the search bar.</p>
 <p><img src="https://i.imgur.com/oGRZVSI.gif" alt="search-bar-demo"></p>
 <h4 id="command-line-usage">Command-Line Usage</h4>
-<p>We're working on command-line application you can use to interact with Tefter.
-Until it's released you can use a simple shell function like the following to navigate using aliases.</p>
+<p>We&rsquo;re working on command-line application you can use to interact with Tefter.
+Until it&rsquo;s released you can use a simple shell function like the following to navigate using aliases.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Add this to your .zshrc</span>
-te<span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-  open <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">https://tefter.io/go/</span>$1<span style="color:#e6db74">&#34;</span>
+te<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+  open <span style="color:#e6db74">&#34;https://tefter.io/go/</span>$1<span style="color:#e6db74">&#34;</span>
 <span style="color:#f92672">}</span>
 </code></pre></div><p><img src="https://i.imgur.com/EJw1Hx6.gif" alt="terminal-app"></p>
 <h2 id="coming-soon">Coming Soon</h2>
@@ -1006,26 +989,9 @@ te<span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span
             
             
             
-            
-            
-            
-            
-            
 
             
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-
-            
-            <a class="nav nav-prev" href="https://guides.tefter.io/billing-pricing/"><i class="ti-arrow-left mr-2"></i>Billing &amp; Pricing</a>
+            <a class="nav nav-prev" href="https://guides.tefter.io/features/team_collaboration/"><i class="ti-arrow-left mr-2"></i>Team Collaboration</a>
             
             
             <a class="nav nav-next" href="https://guides.tefter.io/features/apps/">Apps<i class="ti-arrow-right ml-2"></i></a>
